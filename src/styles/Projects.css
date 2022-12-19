@@ -1,0 +1,29 @@
+.projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.project-container {
+  flex-basis: 45%;
+  margin-bottom: 70px;
+}
+.project-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-container h3,
+.project-container p {
+  margin: 0;
+  /* text-decoration: none !important; */
+}
+
+.project-container p {
+  display: inline-block;
+  margin-right: 10px;
+}
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}

@@ -1,0 +1,108 @@
+.footer {
+  width: 100%;
+  background-color: #242424;
+}
+
+.footer-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container-top {
+  margin: 70px 0;
+  justify-content: space-between;
+  /* column-gap: 50px; */
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact-container {
+  flex-basis: 50%;
+  margin-right: 100px;
+}
+
+.footer-contact-container h1 {
+  margin-top: 0;
+}
+
+.footer-contact-container p {
+  word-wrap: normal;
+}
+
+.footer-input-container {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-input {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 5px 5px 16px 0px;
+  width: 99%;
+  /* font-size: 18px; */
+  border-bottom: solid 1px white;
+  color: inherit;
+}
+
+.footer-input-container p {
+  text-align: end;
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  margin-bottom: 0;
+}
+.footer-input-container button {
+  width: fit-content;
+  font-family: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  cursor: pointer;
+}
+
+.footer-input-container textarea {
+  resize: none;
+  font-family: inherit;
+}
+
+.line-break {
+  /* height: 10px; */
+  width: 100%;
+  margin: 30px 0;
+  border-bottom: 1px solid white;
+}
+
+.image-container {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.image-icons {
+  margin-right: 10px;
+  transform: translateY(50%);
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* position: absolute; */
+  height: 50px;
+  /* z-index: 1000; */
+  /* bottom: 0px; */
+  margin-bottom: 50px;
+}

@@ -1,0 +1,21 @@
+.skills-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  row-gap: 50px;
+}
+
+.skill-container {
+  flex-basis: 30%;
+  flex-grow: 1;
+  width: fit-content;
+}
+
+.skill-container h2,
+.skill-container p {
+  width: fit-content;
+}
+
+.skill-container h2 {
+  margin: 0;
+}

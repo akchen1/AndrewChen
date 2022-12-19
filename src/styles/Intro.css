@@ -1,0 +1,51 @@
+.profile-name {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+  text-underline-offset: 15px;
+}
+
+.profile-image {
+  width: 100%;
+  height: auto;
+}
+
+.profile-image-container {
+  max-width: 445px;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-description {
+  margin-bottom: 100px;
+}
+
+.flex-item {
+  position: relative;
+}
+
+.intro-text {
+  z-index: 100;
+  margin-right: -200px;
+  margin-top: 125px;
+  flex-grow: 1;
+}
+
+.line-break {
+  margin: 40px 0;
+  border-bottom: 1px solid white;
+}
+
+.intro-text p {
+  width: 500px;
+}
+
+.contact {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+  cursor: pointer;
+}
