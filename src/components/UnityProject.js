@@ -8,10 +8,10 @@ export const UnityProject = () => {
   console.log(useParams());
   const {unityProvider, isLoaded, loadingProgression, requestFullscreen} =
     useUnityContext({
-      loaderUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.loader.js`,
-      dataUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.data`,
-      frameworkUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.framework.js`,
-      codeUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.wasm`,
+      loaderUrl: `/AndrewChen/UnityProjects/${title}/BuildFiles/Build.loader.js`,
+      dataUrl: `/AndrewChen/UnityProjects/${title}/BuildFiles/Build.data`,
+      frameworkUrl: `/AndrewChen/UnityProjects/${title}/BuildFiles/Build.framework.js`,
+      codeUrl: `/AndrewChen/UnityProjects/${title}/BuildFiles/Build.wasm`,
     });
 
   // We'll round the loading progression to a whole number to represent the
