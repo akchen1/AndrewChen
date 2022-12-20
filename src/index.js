@@ -3,14 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  createHashRouter,
-  HashRouter,
-  Route,
-  Routes,
-} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 import {ErrorPage} from "./components/ErrorPage";
 import {UnityProject} from "./components/UnityProject";
 

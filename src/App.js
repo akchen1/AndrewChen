@@ -4,8 +4,6 @@ import {Skills} from "./components/Skills";
 import {Projects} from "./components/Projects";
 import {Header} from "./components/Header";
 import {Footer} from "./components/Footer";
-import {Route, Routes} from "react-router-dom";
-import {UnityProject} from "./components/UnityProject";
 
 function App() {
   return (
