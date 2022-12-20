@@ -9,12 +9,12 @@ import {UnityProject} from "./components/UnityProject";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/AndrewChen",
     element: <App />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/unityproject/:title",
+    path: "/AndrewChen/unityproject/:title",
     element: <UnityProject />,
     errorElement: <ErrorPage />,
   },
