@@ -11,7 +11,7 @@ const ProjectData = [
   {
     Key: 2,
     Title: "Ouch!",
-    Img: "UnityProjects/OUCH/thumbnail.PNG",
+    Img: "UnityProjects/Ouch/thumbnail.PNG",
     Skills: ["Unity"],
   },
   // {
