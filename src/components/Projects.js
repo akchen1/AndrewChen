@@ -6,13 +6,13 @@ const ProjectData = [
     Key: 1,
     Title: "Mare",
     Img: "UnityProjects/Mare/thumbnail.PNG",
-    Skills: ["HTML", "CSS"],
+    Skills: ["Unity"],
   },
   {
     Key: 2,
     Title: "Ouch!",
-    Img: "UnityProjects/OUCH!/thumbnail.PNG",
-    Skills: ["HTML", "CSS"],
+    Img: "UnityProjects/OUCH/thumbnail.PNG",
+    Skills: ["Unity"],
   },
   // {
   //   Key: 3,

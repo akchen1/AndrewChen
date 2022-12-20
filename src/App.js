@@ -15,9 +15,6 @@ function App() {
         <Projects></Projects>
       </div>
       <Footer></Footer>
-      {/* <Routes>
-        <Route path="/unityproject/:title" element={<UnityProject />}></Route>
-      </Routes> */}
     </>
   );
 }

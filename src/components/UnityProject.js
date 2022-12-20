@@ -4,7 +4,8 @@ import {Unity, useUnityContext} from "react-unity-webgl";
 import "../styles/UnityProject.css";
 
 export const UnityProject = () => {
-  const {title} = useParams();
+  let {title} = useParams();
+  title = title.replace("!", "");
   console.log(useParams());
   const {unityProvider, isLoaded, loadingProgression, requestFullscreen} =
     useUnityContext({

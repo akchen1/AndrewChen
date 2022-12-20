@@ -7,45 +7,17 @@ import {HashRouter, Route, Routes} from "react-router-dom";
 import {ErrorPage} from "./components/ErrorPage";
 import {UnityProject} from "./components/UnityProject";
 
-// const router = createHashRouter([
-//   {
-//     path: "/",
-//     element: <App />,
-//     errorElement: <ErrorPage />,
-//     children: [
-//       {
-//         path: "AndrewChen",
-//         element: <App />,
-//         children: [,],
-//       },
-//     ],
-//   },
-//   {
-//     path: "unityproject/:title",
-//     element: <UnityProject />,
-//     errorElement: <ErrorPage />,
-//   },
-// ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <RouterProvider router={router}></RouterProvider> */}
-    {/* <App /> */}
     <HashRouter>
-      {/* <div>
-        <Routes>
-          <Route exact path="/" component={App} errorElement={ErrorPage} />
-          <Route
-            path="/about"
-            component={UnityProject}
-            errorElement={ErrorPage}
-          />
-        </Routes>
-      </div> */}
-      {/* <App></App> */}
       <Routes>
-        <Route path="/" element={<App />} errorElement={<ErrorPage />}></Route>
-
+        <Route
+          exact
+          path="/"
+          element={<App />}
+          errorElement={<ErrorPage />}
+        ></Route>
         <Route path="/unityproject/:title" element={<UnityProject />}></Route>
       </Routes>
     </HashRouter>
