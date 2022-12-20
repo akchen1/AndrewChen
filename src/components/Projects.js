@@ -58,7 +58,7 @@ export const Project = (props) => {
   return (
     <div className="project-container">
       <Link
-        to={`/AndrewChen/unityproject/${projectDetails.Title}`}
+        to={`/unityproject/${projectDetails.Title}`}
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -3,27 +3,59 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createHashRouter,
+  HashRouter,
+  Route,
+  Routes,
+} from "react-router-dom";
 import {ErrorPage} from "./components/ErrorPage";
 import {UnityProject} from "./components/UnityProject";
 
-const router = createBrowserRouter([
-  {
-    path: "/AndrewChen",
-    element: <App />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "/AndrewChen/unityproject/:title",
-    element: <UnityProject />,
-    errorElement: <ErrorPage />,
-  },
-]);
+// const router = createHashRouter([
+//   {
+//     path: "/",
+//     element: <App />,
+//     errorElement: <ErrorPage />,
+//     children: [
+//       {
+//         path: "AndrewChen",
+//         element: <App />,
+//         children: [,],
+//       },
+//     ],
+//   },
+//   {
+//     path: "unityproject/:title",
+//     element: <UnityProject />,
+//     errorElement: <ErrorPage />,
+//   },
+// ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    {/* <RouterProvider router={router}></RouterProvider> */}
     {/* <App /> */}
+    <HashRouter>
+      {/* <div>
+        <Routes>
+          <Route exact path="/" component={App} errorElement={ErrorPage} />
+          <Route
+            path="/about"
+            component={UnityProject}
+            errorElement={ErrorPage}
+          />
+        </Routes>
+      </div> */}
+      {/* <App></App> */}
+      <Routes>
+        <Route path="/" element={<App />} errorElement={<ErrorPage />}></Route>
+
+        <Route path="/unityproject/:title" element={<UnityProject />}></Route>
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 

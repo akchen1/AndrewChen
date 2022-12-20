@@ -5,12 +5,13 @@ import "../styles/UnityProject.css";
 
 export const UnityProject = () => {
   const {title} = useParams();
+  console.log(useParams());
   const {unityProvider, isLoaded, loadingProgression, requestFullscreen} =
     useUnityContext({
-      loaderUrl: `/UnityProjects/${title}/Build/Build.loader.js`,
-      dataUrl: `/UnityProjects/${title}/Build/Build.data`,
-      frameworkUrl: `/UnityProjects/${title}/Build/Build.framework.js`,
-      codeUrl: `/UnityProjects/${title}/Build/Build.wasm`,
+      loaderUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.loader.js`,
+      dataUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.data`,
+      frameworkUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.framework.js`,
+      codeUrl: `/AndrewChen/UnityProjects/${title}/Build/Build.wasm`,
     });
 
   // We'll round the loading progression to a whole number to represent the
