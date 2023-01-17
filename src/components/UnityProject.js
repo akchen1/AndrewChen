@@ -13,6 +13,7 @@ export const UnityProject = () => {
       dataUrl: `/UnityProjects/${title}/BuildFiles/Build.data`,
       frameworkUrl: `/UnityProjects/${title}/BuildFiles/Build.framework.js`,
       codeUrl: `/UnityProjects/${title}/BuildFiles/Build.wasm`,
+      streamingAssetsUrl: `/UnityProjects/${title}/StreamingAssets`,
     });
 
   // We'll round the loading progression to a whole number to represent the
