@@ -6,7 +6,7 @@ import "../styles/UnityProject.css";
 export const UnityProject = () => {
   let {title} = useParams();
   title = title.replace("!", "");
-  console.log(useParams());
+
   const {unityProvider, isLoaded, loadingProgression, requestFullscreen} =
     useUnityContext({
       loaderUrl: `/UnityProjects/${title}/BuildFiles/Build.loader.js`,
