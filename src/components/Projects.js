@@ -76,8 +76,8 @@ const ProjectData = [
         description: '',
       },
       {
-        original: '/UnityProjects/SoulsPath/Gameplay/2.PNG',
-        thumbnail: '/UnityProjects/SoulsPath/Gameplay/2.PNG',
+        original: '/UnityProjects/SoulsPath/Gameplay/2.png',
+        thumbnail: '/UnityProjects/SoulsPath/Gameplay/2.png',
       },
       {
         original: '/UnityProjects/SoulsPath/Gameplay/Platforms.gif',
