@@ -85,7 +85,7 @@ export const Footer = () => {
           <h3>Andrew Chen</h3>
           <div className="image-container">
             <img
-              src={"assets/images/icon-github.svg"}
+              src={"/assets/images/icon-github.svg"}
               alt="github link"
               className="image-icons"
               onClick={() =>
@@ -93,7 +93,7 @@ export const Footer = () => {
               }
             ></img>
             <img
-              src={"assets/images/icon-linkedin.svg"}
+              src={"/assets/images/icon-linkedin.svg"}
               alt="linkedin link"
               className="image-icons"
               onClick={() =>

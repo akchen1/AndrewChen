@@ -6,11 +6,13 @@ import reportWebVitals from "./reportWebVitals";
 import {HashRouter, Route, Routes} from "react-router-dom";
 import {ErrorPage} from "./components/ErrorPage";
 import {UnityProject} from "./components/UnityProject";
+import { ProjectDetails } from "./components/ProjectDetails";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <App></App>
+    {/* <HashRouter>
       <Routes>
         <Route
           exact
@@ -18,9 +20,10 @@ root.render(
           element={<App />}
           errorElement={<ErrorPage />}
         ></Route>
-        <Route path="/unityproject/:title" element={<UnityProject />}></Route>
+        <Route path="/unityproject/:title" element={<ProjectDetails />}></Route>
+        <Route path="/unityproject/:title/play" element={<UnityProject />}></Route>
       </Routes>
-    </HashRouter>
+    </HashRouter> */}
   </React.StrictMode>
 );
 

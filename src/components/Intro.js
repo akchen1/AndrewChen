@@ -17,14 +17,14 @@ export const Intro = () => {
           </p>
           <p
             className="contact"
-            onClick={() => window.location.replace("#footer")}
+            onClick={() => document.getElementById("footer").scrollIntoView()}
           >
             CONTACT ME
           </p>
         </div>
         <div className="flex-item profile-image-container">
           <img
-            src="assets/images/image-profile-desktop.webp"
+            src="assets/images/profile.jpg"
             alt="Profile"
             className="profile-image"
           ></img>
