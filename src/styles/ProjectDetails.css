@@ -49,3 +49,13 @@
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+.indent {
+  border-left: 2px solid #D6D6E7;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+
+.span-hover:hover {
+  cursor: pointer;
+}
