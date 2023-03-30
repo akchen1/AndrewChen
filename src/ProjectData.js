@@ -96,8 +96,8 @@ const SoulsPath = () => {
 	];
 	const enemyAIImages = [
 		{
-		original: "/UnityProjects/SoulsPath/Other/Pathfinding.PNG",
-		thumbnail: "/UnityProjects/SoulsPath/Other/Pathfinding.PNG",
+		original: "/UnityProjects/SoulsPath/Other/Pathfinding.png",
+		thumbnail: "/UnityProjects/SoulsPath/Other/Pathfinding.png",
 		description: "Pathfinding"
 		}
 	];
@@ -168,18 +168,18 @@ const SoulsPath = () => {
 const Mare = () => {
 	const enemyAIImages = [
 		{
-			original: "/UnityProjects/Mare/Other/NewDetection.PNG",
-			thumbnail: "/UnityProjects/Mare/Other/NewDetection.PNG",
+			original: "/UnityProjects/Mare/Other/NewDetection.png",
+			thumbnail: "/UnityProjects/Mare/Other/NewDetection.png",
 			description: "New detection system",
 		},
 		{
-			original: "/UnityProjects/Mare/Other/OldDetection.PNG",
-			thumbnail: "/UnityProjects/Mare/Other/OldDetection.PNG",
+			original: "/UnityProjects/Mare/Other/OldDetection.png",
+			thumbnail: "/UnityProjects/Mare/Other/OldDetection.png",
 			description: "Old detection system"
 		},
 		{
-			original: "/UnityProjects/Mare/Other/Pathfinding.PNG",
-			thumbnail: "/UnityProjects/Mare/Other/Pathfinding.PNG",
+			original: "/UnityProjects/Mare/Other/Pathfinding.png",
+			thumbnail: "/UnityProjects/Mare/Other/Pathfinding.png",
 			description: "Pathfinding grid"
 		}
 	];
