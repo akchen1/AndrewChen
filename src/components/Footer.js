@@ -57,14 +57,17 @@ export const Footer = () => {
                 className="footer-input"
                 value={toSend.from_name}
                 onChange={handleChange}
+                required={true}
               ></input>
               <input
-                type="input"
+                type="email"
                 name="reply_to"
                 placeholder="EMAIL"
                 className="footer-input"
                 onChange={handleChange}
                 value={toSend.reply_to}
+                required={true}
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               ></input>
               <textarea
                 className="footer-input"
@@ -73,6 +76,7 @@ export const Footer = () => {
                 rows={5}
                 onChange={handleChange}
                 value={toSend.message}
+                required={true}
               ></textarea>
               <button type="submit">
                 <p>SEND MESSAGE</p>
